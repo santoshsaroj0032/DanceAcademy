@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+h1{
+    text-align: center;
+  padding: 5px;
+    /* color: rgb(79, 40, 148); */
+    color: linear-gradient(rgb(134, 50, 11), rgb(39, 143, 181));
+    background-image: linear-gradient(rgb(196, 22, 215));
+    /* padding: 5px; */
+    color: whitesmoke;
+}
+
+.Container{
+    min-height: 100vh;
+   
+
+}
+
+
+.myForm{
+display: flex;
+flex-direction: column;
+width: 100%;
+justify-content: center;
+align-items: center;
+padding: 30px;
+ 
+ 
+}
+
+.myInput{
+    font-size: 16px;
+    width: 40%;
+    padding: 12px;
+    margin: 12px;
+    border: 2px solid rgb(178, 20, 20);
+    border-radius: 12px;
+   outline:0cap;
+
+}
+
+.btn{
+    padding: 8px 12px;
+    margin: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 8px;
+    border-color: rgb(37, 22, 3);
+    background: rgb(3, 8, 55);
+color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 3px;
+    /* box-shadow: 0 0 5px #04cfee,
+    0 0 25px #03e9f4,
+    0 0 50px #07e1fe,
+    0 0 100px #03e9f4; */
+    /* box-shadow: #03e9f4; */
+  
+}
+
+.btn   a:hover{
+    box-shadow: 0 0 5px #04cfee,
+                0 0 25px #1006cf,
+                0 0 50px #7de10b,
+                0 0 100px #03e9f4;
+}
+
+
+.Container {
+    /* background-image: url('../static/img/contact.jpg');   */
+    background: linear-gradient(#19202e, #101020);
+    background-size: cover; 
+    background-repeat: no-repeat;  
+    background-position: center;
+    height: 40vw;
+     background-size: 100%;
+     padding-top: 0%;
+     padding-bottom: 0%;
+      font-family: 'Roboto Mono', monospace;
+  justify-content: center;
+ 
+
+}
+
+
+.Container  a span:nth-child(1){
+    top: 0;
+    left: -100%;
+    height: 2px;
+    width: 100%;
+    background: linear-gradient(90deg,transparent,#2fb8e6);
+    animation: btn-anim1 1s linear infinite;
+}
+@keyframes btn-anim1{
+    0%{
+        left: -100%;
+    }
+    50%,100%{
+        left: 100%;
+    }
+}
+.Container a  span:nth-child(2){
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#03e9f4);
+    animation: btn-anim2 1s linear infinite;
+    animation-delay: .25s;
+}
+@keyframes btn-anim2{
+    0%{
+        top: -100%;
+    }
+    50%,100%{
+        top: 100%;
+    }
+}
+.Container a  span:nth-child(3){
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,#03e9f4);
+    animation: btn-anim3 1s linear infinite;
+    animation-delay: .5s;
+}
+@keyframes btn-anim3{
+    0%{
+        right: -100%;
+    }
+    50%,100%{
+        right: 100%;
+    }
+}
+.Container a  span:nth-child(4){
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#03e9f4);
+    animation: btn-anim4 1s linear infinite;
+    animation-delay: .75s;
+}
+@keyframes btn-anim4{
+    0%{
+        bottom: -100%;
+    }
+    50%,100%{
+        bottom: 100% ;
+    }
+}
+
+ 
+
+  

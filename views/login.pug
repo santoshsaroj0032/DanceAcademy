@@ -1,0 +1,28 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style
+  link(rel='stylesheet', href='../static/style.css')
+  link(rel='stylesheet', href='../static/loginstyle.css')
+
+block content
+  .Container
+    .login-box
+      h2 Login
+      form(action="/login", method="post", class="myForm", required)
+        //- form(action="/login", method="get")
+        .user-box
+          input(type='text', name='username', required)
+          label(for='username') Username
+        .user-box
+          input(type='password', name='password', required)
+          label(for='password') Password
+        .user-box
+          button.btn(type='submit') Submit
+            a(href='#')
+              span
+              span
+              span
+              span

@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,200;1,300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap');
+ 
+h1 {
+    text-align: center;
+    /* background-color: rgb(196, 130, 31); */
+    font-weight: bold; /* Use font-weight to specify bold text */
+    /* margin-top: 5px; */
+    padding-left: 45px;
+    padding-right: 45px;
+    padding: 10px;
+    color: aliceblue;
+}
+
+h2{
+    font-weight: bold;
+    padding: 15px;
+    color: aliceblue;
+
+}
+
+p{
+ margin-left: 10px; 
+ font-size: large;
+ /* font-family: 'Roboto Mono', monospace; */
+ padding: 5px;
+ color: aliceblue;
+}
+
+.Container{
+    /* background-image: linear-gradient(rgb(134, 50, 11), rgb(39, 143, 181)); */
+    /* background-image: linear-gradient(rgb(236, 79, 100), rgb(241, 245, 246),green); */
+    background: linear-gradient(#141e30, #243b55);
+    /* height: 100%; */
+
+    width: 100%;
+    background-size: 100%;
+    /* padding-top: 0%; */
+    padding-bottom: 10%;
+    background-color: rgb(110, 48, 109);
+
+    justify-content: center;
+    align-items: center;
+    /* background-image: linear-gradient(rgb(134, 11, 27), rgb(241, 245, 246),green); */
+    height: 100%;
+     
+}

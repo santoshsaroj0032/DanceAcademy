@@ -1,0 +1,64 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,200;1,300&display=swap');
+ h1 {
+     text-align: center;
+     /* background-color: rgb(196, 130, 31); */
+     font-weight: bold;
+     /* Use font-weight to specify bold text */
+     /* margin-top: 5px; */
+     padding-left: 45px;
+     padding-right: 45px;
+     padding: 10px;
+     color: aliceblue;
+ }
+
+ /* .container {
+    background-image: img('static/img/servicebg.jpg');
+    
+} */
+
+ .container {
+     min-height: 100%;
+
+ }
+
+ .background {
+     background-image: rgb(31, 31, 197);
+ }
+
+ #ser {
+     margin-left: 4px;
+     padding: 20px;
+ }
+
+ .Container {
+    
+     width: 100%;
+     background-size: 100%;
+     /* padding-top: 0%; */
+     padding-bottom: 10%;
+     background-color: rgb(110, 48, 109);
+
+     justify-content: center;
+     align-items: center;
+     /* background-image: linear-gradient(rgb(255, 121, 139), rgb(213, 243, 251),rgb(4, 85, 4)); */
+     background: linear-gradient(#141e30, #243b55);
+     height: 100%;
+
+
+ }
+
+ p {
+    /* font-family: 'Roboto Mono', monospace; */
+     font-size: 20px;
+     color: #f0f4f5fc;
+     margin: 14px;
+     padding: 12px;
+     /* color: linear-gradient(rgba(15, 2, 3, 0.73), rgba(28, 68, 15, 0.753)); */
+ }
+ h2{
+    /* font-weight: bold; */
+    padding: 10px;
+    color: beige;
+
+}

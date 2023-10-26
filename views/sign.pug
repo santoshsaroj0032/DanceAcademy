@@ -1,0 +1,27 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style
+  link(rel='stylesheet', href='../static/style.css')
+  link(rel='stylesheet', href='../static/sign.css')
+
+block content
+  .container
+    .header
+      span.signup Sign Up
+    //- end of header
+    hr
+    form(action="/sign", method="post")
+      input(type="text", id="fullname", name="fullname", placeholder="Enter your full name", required)
+      input(type="number", class="myInput", name="phone", placeholder="Enter your phone number" ,required)
+      //- input(type="text", id="userName", name="userName", placeholder="Username", required)
+      input(type="email", id="email", name="email", placeholder="Email Address", required)
+      input(type="password", name="password", id="password", placeholder="Password", required)
+      button.btn(type='submit') Create Account
+        a(href='#')
+          span
+          span
+          span
+          span

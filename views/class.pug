@@ -1,0 +1,46 @@
+extends base.pug
+block scripts
+  script(src='/static/index.js')
+
+
+block style
+  link(rel='stylesheet', href='../static/style.css')
+  link(rel='stylesheet', href='../static/class.css')
+
+block content
+  //- div.background 
+  //-   //- img(src='servicebg.jpg')
+ 
+  div.Container
+
+     h1 Class Info 
+     ul 
+      li#services
+
+       li
+        h2 1. Our Dance Classes
+        p 
+         | -> At our Dance Academy, we offer a variety of dance classes for dancers of all ages and skill levels. Whether you're a beginner or an experienced dancer, we have something for everyone.
+       li
+        h2 2. Class Schedule
+        p 
+         | ->  Mondays and Wednesdays, 5:00 PM - 6:30 PM
+        p 
+         | ->  Tuesdays and Thursdays, 6:00 PM - 7:30 PM
+        p 
+         | ->  Fridays, 4:30 PM - 6:00 PM
+        p 
+         | ->  Saturdays, 10:00 AM - 11:30 AM
+       li
+        h2 3. Class Descriptions
+        p 
+         |  -> Classical technique, posture, alignment, and grace.
+        p 
+         |  -> Energetic dance with elements of ballet, modern, and popular music.
+        p 
+         |  ->  Learn the latest moves to your favorite songs in this high-energy class.
+
+        p 
+         |  ->  Express yourself through a blend of dance styles and techniques.
+
+       

@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+
+}
+
+#logo {
+    display: flex;
+    color: rgb(203, 25, 25);
+    align-items: center;
+    margin: 0 14px;
+    font-size: 28px;
+    margin-right: 40px;
+
+
+}
+
+#logo img {
+    height: 45px;
+    /* filter: invert(1); */
+    color: black;
+
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#navbar li {
+    list-style: none;
+    margin-right: 70px;
+}
+
+#navbar li a {
+    text-decoration: none;
+    /* padding: 13px 10px; */
+    font-size: 28px;
+    color: rgba(25, 9, 9, 0.977);
+    /* margin-left: 30px; */
+    /* margin-right: 20px; */
+
+}
+
+#navbar li a:hover {
+    color: rgb(54, 44, 44);
+    font-weight: bolder;
+    cursor: pointer;
+
+}
+
+#navbar {
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Muli', sans-serif;
+    /* background-color: linear-gradient(rgb(92 ,200 ,100) purple); */
+    background-image: linear-gradient(rgba(241, 240, 248, 0.981), rgba(231, 226, 235, 0.29));
+    /* background-color: inherit; */
+    /* padding: 18px 14px; */
+    padding: 10px 12;
+   
+
+}
+
+#introSection {
+    padding-bottom: 70px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: center / cover no-repeat url(/static/dance.jpg);
+    height: 450px;
+    background-color: red;
+}
+
+#introSection div.small {
+    font-size: 45px;
+    padding: 5px;
+}
+
+#missionSection {
+    height: 327px;
+    background-color: rgba(248, 246, 244, 0.958);
+    width: 67%;
+    margin: auto;
+
+}
+
+#missionSection h2 {
+    font-size: 36px;
+    text-align: center;
+    padding-top: 12px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.card {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 28.5%;
+    margin: 23px 20px;
+    height: 240px;
+
+    /* align-items: center; */
+
+}
+
+.card h3 {
+    text-align: center;
+    margin: 0 12px;
+    margin-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img {
+    height: 25%;
+    padding: 0 14px;
+    margin: 5px 9px;
+}
+
+.card-content p {
+    padding: 0 20px;
+}
+
+.card-content p {
+    color: rgb(213, 20, 136);
+    font-size: 15px;
+}
+
+#sponsersSection {
+    margin-top: 30px;
+
+    height: 300px;
+    background-color: rgba(226, 192, 173, 0.958);
+    /* text-align: center; */
+
+}
+
+
+#sponsersSection h2{
+    font-size: 36px;
+    text-align: center;
+    padding-top: 12px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#sponsors {
+    height: 200px;
+    max-width: 1000px;
+    margin: 27px auto;
+}
+
+.spImage {
+    height: 80%;
+    margin: 20px;
+}
+
+
+
+#footer {
+    display: flex;
+    color: white;
+    background-color: black;
+    height: 65px;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-family: 'Roboto Mono', monospace;
+    cursor: pointer;
+    /* margin-top: 560px; */
+    margin-bottom: 0%;
+
+}
+
+a:hover{
+    background: hsla(0, 7%, 91%, 0.355);
+    color: #370758;
+    border-radius: 5px;
+    box-shadow: 0 0 5px transparent,
+                0 0 25px transparent,
+                0 0 50px transparent,
+                0 0 100px transparent;
+} 

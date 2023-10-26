@@ -1,0 +1,30 @@
+doctype html 
+html 
+  head 
+    title Dance Academy 
+    block scripts 
+    block style 
+  body 
+   nav#navbar
+      ul
+      
+        li#logo
+          img(src='../static/img/logo1.png', alt='Logo')
+          | Dance Academy
+        li
+          a(href='/home') Home
+        li
+          a(href='/about') About
+        li
+          a(href='service') Services
+        li
+          a(href='/class') Class info
+        li
+         a(href='/contact') Contact Us
+        li 
+         a(href='/login') Log in 
+        li 
+         a(href='/sign') Sign up 
+  block content 
+  footer#footer
+        |  Copyright © 2023DanceAcademy.com | All rights reserved  
