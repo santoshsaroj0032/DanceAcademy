@@ -6,8 +6,7 @@ body{
     padding: 0;
     font-family: sans-serif;
     background: linear-gradient(#19202e, #101020);
-    /* background-image: ("../static/img/logo1.png" alt="logo"); */
-}
+ }
 .login-box{
     position: absolute;
     top: 50%;
@@ -28,8 +27,7 @@ body{
 }
 .login-box .user-box{
     position: relative;
-    /* background-color: black; */
-}
+ }
 .login-box .user-box input{
     width: 100%;
     padding: 10px 0;
@@ -40,8 +38,7 @@ body{
     border-bottom: 1px solid #f2eded;
     outline: none;
     background: transparent;
-    /* background-color: black; */
-}
+ }
 .login-box .user-box label{
     position: absolute;
     top:0;
@@ -59,8 +56,7 @@ body{
     left: 0;
     color: #bbe6e8;
     font-size: 12px;
-    /* background-color: #101020; */
-}
+ }
 .login-box form button{
     position: relative;
     display: inline-block;

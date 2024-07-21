@@ -5,8 +5,7 @@ h1{
     /* color: rgb(79, 40, 148); */
     color: linear-gradient(rgb(134, 50, 11), rgb(39, 143, 181));
     background-image: linear-gradient(rgb(196, 22, 215));
-    /* padding: 5px; */
-    color: whitesmoke;
+     color: whitesmoke;
 }
 
 .Container{
@@ -50,12 +49,7 @@ color: white;
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 3px;
-    /* box-shadow: 0 0 5px #04cfee,
-    0 0 25px #03e9f4,
-    0 0 50px #07e1fe,
-    0 0 100px #03e9f4; */
-    /* box-shadow: #03e9f4; */
-  
+ 
 }
 
 .btn   a:hover{
@@ -67,8 +61,7 @@ color: white;
 
 
 .Container {
-    /* background-image: url('../static/img/contact.jpg');   */
-    background: linear-gradient(#19202e, #101020);
+     background: linear-gradient(#19202e, #101020);
     background-size: cover; 
     background-repeat: no-repeat;  
     background-position: center;

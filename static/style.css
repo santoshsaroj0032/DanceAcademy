@@ -22,16 +22,14 @@
 
 #logo img {
     height: 45px;
-    /* filter: invert(1); */
-    color: black;
+     color: black;
 
 }
 
 #navbar ul {
     display: flex;
     flex-direction: row;
-    /* justify-content: center; */
-    align-items: center;
+     align-items: center;
 }
 
 #navbar li {
@@ -41,11 +39,9 @@
 
 #navbar li a {
     text-decoration: none;
-    /* padding: 13px 10px; */
-    font-size: 28px;
+     font-size: 28px;
     color: rgba(25, 9, 9, 0.977);
-    /* margin-left: 30px; */
-    /* margin-right: 20px; */
+ 
 
 }
 
@@ -59,21 +55,33 @@
 #navbar {
     font-family: 'Quicksand', sans-serif;
     font-family: 'Muli', sans-serif;
-    /* background-color: linear-gradient(rgb(92 ,200 ,100) purple); */
-    background-image: linear-gradient(rgba(241, 240, 248, 0.981), rgba(231, 226, 235, 0.29));
-    /* background-color: inherit; */
-    /* padding: 18px 14px; */
-    padding: 10px 12;
+     background-image: linear-gradient(rgba(241, 240, 248, 0.981), rgba(231, 226, 235, 0.29));
+     padding: 10px 12;
    
 
 }
 
+/* #introSection {
+    padding-bottom: 70px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 6vw;
+    display: flex;
+    flex-direction: right;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: center / cover no-repeat url(/static/dance.jpg);
+    height: 450px;
+    background-color: red;
+} */
+
+
 #introSection {
     padding-bottom: 70px;
     font-family: 'Roboto Mono', monospace;
-    font-size: 65px;
+    font-size: 6vw; /* Base font size */
     display: flex;
-    flex-direction: column;
+    flex-direction: right;
     justify-content: center;
     align-items: center;
     color: white;
@@ -81,6 +89,32 @@
     height: 450px;
     background-color: red;
 }
+
+/* Adjust font size for different viewport widths */
+@media screen and (max-width: 1200px) {
+    #introSection {
+        font-size: 6vw;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #introSection {
+        font-size: 8vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #introSection {
+        font-size: 10vw;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #introSection {
+        font-size: 12vw;
+    }
+}
+
 
 #introSection div.small {
     font-size: 45px;
@@ -92,6 +126,7 @@
     background-color: rgba(248, 246, 244, 0.958);
     width: 67%;
     margin: auto;
+    flex-wrap: wrap;
 
 }
 
@@ -109,12 +144,14 @@
     width: 28.5%;
     margin: 23px 20px;
     height: 240px;
+    flex-wrap: wrap;
 
-    /* align-items: center; */
-
+ 
 }
 
 .card h3 {
+    flex-wrap: wrap;
+
     text-align: center;
     margin: 0 12px;
     margin-top: 25px;
@@ -125,30 +162,38 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
+
 }
 
 .card-img {
     height: 25%;
     padding: 0 14px;
     margin: 5px 9px;
+    flex-wrap: wrap;
+
 }
 
 .card-content p {
     padding: 0 20px;
+    flex-wrap: wrap;
+
 }
 
 .card-content p {
     color: rgb(213, 20, 136);
     font-size: 15px;
+    flex-wrap: wrap;
+
 }
 
 #sponsersSection {
     margin-top: 30px;
+    flex-wrap: wrap;
 
     height: 300px;
     background-color: rgba(226, 192, 173, 0.958);
-    /* text-align: center; */
-
+ 
 }
 
 
@@ -157,17 +202,23 @@
     text-align: center;
     padding-top: 12px;
     font-family: 'Roboto Mono', monospace;
+    flex-wrap: wrap;
+
 }
 
 #sponsors {
     height: 200px;
     max-width: 1000px;
     margin: 27px auto;
+    flex-wrap: wrap;
+
 }
 
 .spImage {
     height: 80%;
     margin: 20px;
+    flex-wrap: wrap;
+
 }
 
 
@@ -182,8 +233,9 @@
     font-size: 15px;
     font-family: 'Roboto Mono', monospace;
     cursor: pointer;
-    /* margin-top: 560px; */
-    margin-bottom: 0%;
+     margin-bottom: 0%;
+     flex-wrap: wrap;
+
 
 }
 
@@ -196,3 +248,8 @@ a:hover{
                 0 0 50px transparent,
                 0 0 100px transparent;
 } 
+
+
+
+
+
